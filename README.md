@@ -33,17 +33,17 @@ El mundo está contaminado y lleno de peligros, pero pequeñas acciones —como 
 Tierra-Gris_3/
 │
 ├── Scripts/
-│ ├── BarraVida.cs → Control de la barra de vida
-│ ├── BotellaScript.cs → Lógica de botellas recolectables
-│ ├── PlayerController2D.cs → Movimiento del jugador
-│ ├── Temporizador.cs → Sistema de tiempo y victoria
-│ ├── SeguirCamaraJugador.cs → Cámara que sigue al jugador
-│ └── MonstruoHuye.cs → Enemigos que huyen del jugador
+│ ├── BarraVida.cs # Control de la barra de vida
+│ ├── BotellaScript.cs # Lógica de botellas recolectables
+│ ├── PlayerController2D.cs # Movimiento del jugador
+│ ├── Temporizador.cs # Sistema de tiempo y victoria
+│ ├── SeguirCamaraJugador.cs # Cámara que sigue al jugador
+│ └── MonstruoHuye.cs # Enemigos que huyen del jugador
 │
-├── Scenes/
-├── Prefabs/
-├── Sprites/
-└── Audio/
+├── Scenes/ # Escenas del juego
+├── Prefabs/ # Objetos reutilizables
+├── Sprites/ # Arte y gráficos
+└── Audio/ # Sonidos y música
 
 
 ---
