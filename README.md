@@ -1,71 +1,95 @@
-🌆 Tierra Gris — Videojuego 2D Post-Apocalíptico
-Presentado por: Ivana Rocha Campos y Everardo Guadalupe Torres Tovar
-🧩 Descripción General
+# 🌆 Tierra Gris — Videojuego 2D Post-Apocalíptico  
+## **Presentado por: Ivana Rocha Campos y Everardo Guadalupe Torres Tovar**
 
-Tierra Gris es un videojuego 2D post-apocalíptico desarrollado en Unity, diseñado especialmente para niños con el objetivo de crear conciencia sobre la importancia de no tirar basura y proteger el planeta.
+---
 
-El mundo del juego refleja cómo la contaminación convierte el entorno en un lugar peligroso, mientras que pequeñas acciones —como reciclar, recolectar y clasificar residuos— pueden marcar la diferencia.
+<p align="center">
+  <img src="https://img.shields.io/badge/Unity-2D-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/C%23-Language-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Educational-Game-green?style=for-the-badge" />
+</p>
 
-🎮 Características Principales
+---
 
-❤️ Barra de vida dinámica
+## 📘 **Descripción General**
 
-🍼 Objetos que aumentan o reducen la vida
+**Tierra Gris** es un videojuego **2D post-apocalíptico** cuyo objetivo es crear conciencia ambiental en los niños.  
+El mundo está contaminado y lleno de peligros, pero pequeñas acciones —como reciclar, recolectar y clasificar basura— pueden cambiarlo todo.
 
-⏱️ Temporizador y condiciones de victoria
+---
 
-👾 Enemigos hechos de basura tóxica
+## 🎮 **Características Principales**
 
-🕹️ Controles completos para plataformas 2D
+- ❤️ **Barra de vida dinámica**
+- 🧴 **Objetos que restauran o reducen vida**
+- ⏱️ **Temporizador y condiciones de victoria**
+- 👾 **Enemigos hechos de basura tóxica**
+- 🕹️ **Controles completos tipo plataforma 2D**
+- 🌱 **Tres niveles con propósito educativo**
+- 🌍 **Diseño orientado al cuidado del planeta**
 
-🎓 Tres niveles con objetivos ecológicos
+---
 
-🌱 Diseño orientado a valores ambientales
-
-📂 Estructura del Proyecto
 Tierra-Gris_3/
 │
 ├── Scripts/
-│   ├── BarraVida.cs               # Gestión de la barra de vida del jugador
-│   ├── BotellaScript.cs           # Lógica de las botellas recolectables
-│   ├── PlayerController2D.cs      # Controles del personaje
-│   ├── Temporizador.cs            # Sistema de tiempo y victoria
-│   ├── SeguirCamaraJugador.cs     # Cámara que sigue al jugador
-│   └── MonstruoHuye.cs            # Lógica de enemigos que huyen del jugador
+│ ├── BarraVida.cs → Control de la barra de vida
+│ ├── BotellaScript.cs → Lógica de botellas recolectables
+│ ├── PlayerController2D.cs → Movimiento del jugador
+│ ├── Temporizador.cs → Sistema de tiempo y victoria
+│ ├── SeguirCamaraJugador.cs → Cámara que sigue al jugador
+│ └── MonstruoHuye.cs → Enemigos que huyen del jugador
 │
-└── Assets, Scenes, Prefabs, Sprites...
+├── Scenes/
+├── Prefabs/
+├── Sprites/
+└── Audio/
 
-🌍 Niveles del Juego
-🧭 Nivel 1 — Recolecta y Sobrevive
 
-El jugador debe recolectar botellas mientras evita monstruos de basura.
-Objetivo: reunir las botellas sin perder vida.
-📘 Enseña que cada botella reciclada ayuda a limpiar el planeta.
+---
 
-♻️ Nivel 2 — Clasifica y Recicla
+## 🌍 **Niveles del Juego**
 
-Se recolectan distintos tipos de basura (plástico, papel, vidrio, orgánico) y se llevan a su contenedor correspondiente.
-También hay plantas que otorgan vida y enemigos que bloquean el paso.
-📘 Enseña la importancia de separar correctamente los residuos.
+### **🧭 Nivel 1 — Recolecta y Sobrevive**
+- Recolecta botellas y esquiva monstruos contaminantes.  
+- Enseña que cada botella reciclada ayuda al planeta.
 
-⏳ Nivel 3 — Tiempo contra la Contaminación
+---
 
-El jugador empieza con 10 segundos para recolectar monedas que aumentan energía.
-Luego debe absorber o destruir monstruos antes de que se multipliquen.
-📘 Enseña que la contaminación empeora si no actuamos a tiempo.
+### **♻️ Nivel 2 — Clasifica y Recicla**
+- Recolecta basura y clasifícala correctamente (plástico, vidrio, papel, orgánico).  
+- Enseña el hábito de **separar residuos**.
 
-🛠️ Tecnologías Utilizadas
+---
 
-Unity 2D
+### **⏳ Nivel 3 — Tiempo contra la Contaminación**
+- Corre contra el tiempo para recolectar monedas.  
+- Elimina monstruos antes de que se multipliquen.  
+- Enseña que **si no actuamos rápido, la contaminación empeora**.
 
-Lenguaje C#
+---
 
-Visual Studio / Visual Studio Code
+## 🛠️ **Tecnologías Utilizadas**
 
-🏁 Objetivo del Proyecto
+- Unity 2D  
+- C#  
+- Visual Studio / Visual Studio Code  
 
-Promover valores ambientales de manera divertida a través de un videojuego educativo que muestra el impacto de la contaminación y la importancia del reciclaje.
+---
 
-💚 Agradecimientos
+## 🏁 **Objetivo del Proyecto**
 
-Gracias por jugar y por ayudar a salvar el planeta, una botella a la vez 🌎♻️
+Concientizar sobre la contaminación mediante una experiencia divertida que conecta el reciclaje con la supervivencia del planeta.
+
+---
+
+## 💚 **Agradecimientos**
+
+Gracias por apoyar el desarrollo de juegos educativos.  
+♻️ *Cada pequeña acción cuenta.*
+
+---
+
+
+## 📂 **Estructura del Proyecto**
+
